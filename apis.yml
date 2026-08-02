@@ -1,8 +1,29 @@
 aid: tagspace
 name: tagSpace
-description: tagSpace is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  tagSpace is a Spatial AI platform, part of the tagStorm group, that lets
+  creators and brands publish interactive augmented-reality experiences and
+  spatial content anchored to real-world places. Through its create, explore,
+  and publish surfaces, tagSpace offers a creator-economy platform where makers
+  showcase spatial "tags," and its tagAI layer applies AI to spatial content.
+  It markets to brands and enterprises (B2B) with named partners including RTL,
+  Telekom, Telstra, Warner Music Group and others. The public site is a Framer
+  marketing presence; as of this enrichment pass tagSpace exposes no public
+  developer portal, API documentation, OpenAPI specification, SDK, or
+  well-known API metadata. This profile remains an identity-only company record.
 url: https://raw.githubusercontent.com/api-evangelist/tagspace/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/y7BWsTONA7GwAvcMskD7XRrs.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Spatial AI
+- Augmented Reality
+- Spatial Computing
+- Creator Economy
+- Content Platform
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://tagspace.com/
+- type: Support
+  url: https://tagspace.com/contact
+- type: TermsOfService
+  url: https://learn.tagstorm.com/terms-of-use-english
+- type: PrivacyPolicy
+  url: https://tagspace.com/privacy-policy-english
+- type: X
+  url: https://x.com/tagSpaceCo
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tagspace
+- type: YouTube
+  url: https://youtube.com/@tagspace
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
